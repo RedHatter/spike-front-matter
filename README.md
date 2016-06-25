@@ -1,4 +1,5 @@
 # Spike Front Matter
+[![npm version](https://badge.fury.io/js/spike-front-matter.svg)](https://badge.fury.io/js/spike-front-matter) [![Dependency Status](https://david-dm.org/RedHatter/spike-front-matter.svg)](https://david-dm.org/RedHatter/spike-front-matter)  [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 Jekyll like yaml based front matter for Spike.
 
