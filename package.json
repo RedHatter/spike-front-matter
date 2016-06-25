@@ -1,0 +1,28 @@
+{
+  "name": "spike-front-matter",
+  "version": "0.0.1",
+  "description": "Jekyll like yaml based front matter for Spike.",
+  "dependencies": {
+    "js-yaml": "3.x",
+    "spike-util": "0.2.x",
+    "webpack": "1.x",
+    "when": "^3.7.7",
+    "micromatch": "^2.3.8"
+  },
+  "devDependencies": {
+    "spike-core": "^0.8.0"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "keywords": [
+    "spikeplugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RedHatter/spike-front-matter.git"
+  },
+  "main": "lib",
+  "author": "Timothy Johnson",
+  "license": "GPL-3.0"
+}
