@@ -1,6 +1,6 @@
 {
   "name": "spike-front-matter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Jekyll like yaml based front matter for Spike.",
   "dependencies": {
     "js-yaml": "3.x",
