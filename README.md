@@ -29,4 +29,22 @@ Jekyll like yaml based front matter for Spike.
 
 ## Usage
 
-The Spike Front Matter plugin provides you with two properties on the plugin object: `page`, and `site`. The `page` property is an object containing the front matter for the currently compiling file. The `site` property on the other hand contains all the font matter objects nested within their respective folders.
+The Spike Front Matter plugin provides you with two properties on the plugin object: `page`, and `site`. The `page` property is an object containing the front matter for the currently compiling file. The `site` property on the other hand contains all the font matter objects nested within their respective folders. See *installation* for an example of how to use these properties.
+
+### What is Front Matter
+Front matter is [yaml](https://learnxinyminutes.com/docs/yaml/) data inserted at the top of any file between a set of `---`. See below.
+
+```
+---
+title: A string
+property: value
+block: |
+    This is a multi-line property.
+    See? Second line.
+---
+extends layout
+
+block content
+  h1= page.title
+  p= page.block
+```
